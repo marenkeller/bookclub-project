@@ -25,16 +25,17 @@
       src="https://kit.fontawesome.com/7a24b54d0d.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Flex:opsz,wght@8..144,300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
   </head>
 
   <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg bg-light">
+
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html" title="Go to homepage"
-            >Home</a
-          >
           <button
             class="navbar-toggler"
             type="button"
@@ -54,7 +55,7 @@
                   aria-current="page"
                   href="join.html"
                   title="Join The Seasonal Readers bookclub"
-                  >Join!</a
+                  >Subscribe</a
                 >
               </li>
               <li class="nav-item">
@@ -65,6 +66,9 @@
                   >Book of the Month</a
                 >
               </li>
+              <a class="navbar-brand" href="index.html" title="Go to homepage"
+                >Home</a
+              >
               <li class="nav-item">
                 <a
                   class="nav-link active"
@@ -117,11 +121,13 @@
 
       <h1>The Seasonal Reader</h1>
       <h2>Seasonal Reader</h2>
-      <h3>Book of the Month</h3>
-
-      <a href="join.html">Join!</a>
-      <a href="moreInfo.html#about" title="More information">More info</a>
-      <footer>
+      <div class="infoLinks d-flex justify-content-center">
+        <a href="join.html" class="joinLink">Join!</a>
+        <a href="moreInfo.html#about" class="infoLink" title="More information"
+          >More info</a
+        >
+      </div>
+      <footer class="d-flex justify-content-center">
         <i
           class="fa-brands fa-square-instagram"
           title="Go to our Instagram"

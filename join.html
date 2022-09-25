@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Join The Seasonal Readers bookclub!</title>
+    <title>Subscribe to The Seasonal Readers bookclub!</title>
     <meta
       name="description"
       content="The Seasonal Readers is an international community of readers. We belive that reading literatur curated to each season increases the readinf experience. Join us now!"
@@ -25,16 +25,17 @@
       src="https://kit.fontawesome.com/7a24b54d0d.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Flex:opsz,wght@8..144,300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
   </head>
 
   <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg bg-light">
+
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html" title="Go to homepage"
-            >Home</a
-          >
           <button
             class="navbar-toggler"
             type="button"
@@ -54,7 +55,7 @@
                   aria-current="page"
                   href="index.html"
                   title="Join The Seasonal Readers bookclub"
-                  >Join!</a
+                  >Subscribe</a
                 >
               </li>
               <li class="nav-item">
@@ -65,6 +66,9 @@
                   >Book of the Month</a
                 >
               </li>
+              <a class="navbar-brand" href="index.html" title="Go to homepage"
+                >Home</a
+              >
               <li class="nav-item">
                 <a
                   class="nav-link"
@@ -116,15 +120,54 @@
       </nav>
 
       <h1>The Seasonal Reader</h1>
-      <h2>Seasonal Reader</h2>
-      <h3>Book of the Month</h3>
-      <img
-        src="src/TSH.jpeg"
-        alt="Book of the month:Secret History by Donna Tartt"
-      />
+      <h2>Subscribe</h2>
 
-      <a href="moreInfo.html#about" title="More information">More info</a>
-      <footer>
+      <br />
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="card col-sm-4 m-3" style="width: 300px">
+            <img src="src/TSH.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-sm-4 m-3" style="width: 300px">
+            <img src="src/TSH.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-sm-4 m-3" style="width: 300px">
+            <img src="src/TSH.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="infoLinks d-flex justify-content-center">
+        <a href="join.html" class="infoLink" title="Subscribe here"
+          >Subscribe!</a
+        >
+      </div>
+      <footer class="d-flex justify-content-center">
         <i
           class="fa-brands fa-square-instagram"
           title="Go to our Instagram"

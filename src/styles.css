@@ -1,0 +1,102 @@
+:root {
+  --background-color: white;
+  --fall-main-color: rgb(252, 178, 39);
+  --winter-main-color: red;
+  --spring-main-color: green;
+  --summer-main-color: yellow;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  line-height: 28px;
+  font-family: "Tenor Sans", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin: 100px 0 50px;
+  font-size: 54px;
+  text-transform: uppercase;
+  font-family: "Cinzel", serif;
+}
+
+footer i {
+  margin: 35px;
+  font-size: large;
+}
+
+.row {
+  margin-top: 30px;
+}
+.col-sm-4 {
+  max-width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-family: "Tenor Sans", sans-serif;
+}
+
+h5 {
+  font-family: "Cinzel", serif;
+}
+
+.btn-dark,
+.navbar {
+  text-transform: uppercase;
+  font-family: "Cinzel", serif;
+  padding: 10px;
+}
+
+.navbar {
+  padding: 0 14px 0 14px;
+}
+
+.col-sm-6 img {
+  max-width: 40%;
+  height: auto;
+  position: relative;
+  right: -150px;
+}
+
+.botmPic {
+  min-width: 25px;
+  max-width: 40%;
+  height: auto;
+}
+
+div .joinLink,
+.infoLink {
+  background-color: var(--fall-main-color);
+  border: 1px solid var(--fall-main-color);
+  padding: 12px 30px;
+  margin: 30px;
+  color: black;
+  text-decoration: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: "Cinzel", serif;
+}
+
+@media (max-width: 574px) {
+  h1 {
+    line-height: 50px;
+  }
+
+  div .joinLink,
+  .infoLink {
+    text-align: center;
+  }
+  .col-sm-6 img {
+    margin: 20px 0 20px 0;
+  }
+
+  p {
+    text-align: center;
+  }
+}

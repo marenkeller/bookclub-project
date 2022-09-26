@@ -12,30 +12,33 @@ body {
 }
 
 h2,
-h3 {
+h3,
+h3 .botmLink {
   text-align: center;
   line-height: 28px;
   font-family: "Tenor Sans", sans-serif;
   text-transform: uppercase;
   margin: 25px;
+  color: black;
 }
 
 h1 {
   text-align: center;
-  margin: 100px 0 50px;
-  font-size: 54px;
+  margin: 130px 0 70px;
+  font-size: 56px;
   text-transform: uppercase;
   font-family: "Cinzel", serif;
 }
 
 footer i {
-  margin: 35px;
+  margin: 45px;
   font-size: large;
 }
 
 .row {
   margin-top: 30px;
 }
+
 .col-sm-4 {
   max-width: 100%;
   text-align: center;

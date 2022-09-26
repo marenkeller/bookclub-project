@@ -8,6 +8,7 @@
 
 body {
   background-color: var(--background-color);
+  max-width: 100%;
 }
 
 h1,

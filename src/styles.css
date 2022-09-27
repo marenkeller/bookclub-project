@@ -1,6 +1,6 @@
 :root {
   --background-color: white;
-  --fall-main-color: rgb(252, 178, 39);
+  --fall-main-color: #46604d;
   --winter-main-color: red;
   --spring-main-color: green;
   --summer-main-color: yellow;
@@ -99,14 +99,25 @@ h5 {
   font-family: "Cinzel", serif;
   font-size: 24px;
 }
+.gift-link {
+  background-color: #0c3938;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  margin: 0 40px;
+}
+
 .col-sm-6 img {
   max-width: 40%;
   height: auto;
   position: relative;
   right: -150px;
-  border: 30px solid #46604d;
+  border: 30px solid var(--fall-main-color);
 }
 
+.botmHead {
+  border: 2px solid var(--fall-main-color);
+}
 .botmPic {
   min-width: 25px;
   max-width: 40%;
@@ -125,6 +136,13 @@ div .joinLink,
   text-transform: uppercase;
   font-family: "Tenor Sans", sans-serif;
 }
+
+div .joinLink:hover,
+.infoLink:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 .logo-text {
   font-size: medium;
   text-decoration: underline;

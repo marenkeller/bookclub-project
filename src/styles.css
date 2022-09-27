@@ -1,6 +1,6 @@
 :root {
   --background-color: white;
-  --fall-main-color: #46604d;
+  --fall-main-color: #0c3938;
   --winter-main-color: red;
   --spring-main-color: green;
   --summer-main-color: yellow;
@@ -12,7 +12,7 @@ body {
 }
 .hero {
   background-color: #f8f9fa;
-  padding-bottom: 40%;
+  padding-bottom: 30%;
 }
 
 h2,
@@ -50,10 +50,14 @@ h1 {
   padding-top: 80px;
 }
 
-.botmIndexPage,
-footer i {
-  margin: 35px;
+div .col-sm-6.botmIndex-titlePage {
+  margin: 35 40px;
   font-size: large;
+  padding: 40px;
+}
+
+footer i {
+  margin: 20px;
 }
 
 .row {
@@ -100,11 +104,11 @@ h5 {
   font-size: 24px;
 }
 .gift-link {
-  background-color: #0c3938;
+  background-color: var(--fall-main-color);
   font-size: 24px;
   text-align: center;
   font-family: "Cinzel", serif;
-  margin: 0 40px;
+  margin: 25px;
 }
 
 .col-sm-6 img {
@@ -117,6 +121,7 @@ h5 {
 
 .botmHead {
   border: 2px solid var(--fall-main-color);
+  margin: 25px;
 }
 .botmPic {
   min-width: 25px;
@@ -125,7 +130,8 @@ h5 {
 }
 
 div .joinLink,
-.infoLink {
+.infoLink,
+.readMore {
   background-color: #486780;
   border: 1px solid #486780;
   padding: 12px 30px;

@@ -109,6 +109,15 @@ footer i {
   top: -14px;
 }
 
+.archive {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border: 2px solid #486780;
+  padding: 20px;
+  margin: 20px;
+}
+
 .col-sm-6 img {
   max-width: 40%;
   height: auto;

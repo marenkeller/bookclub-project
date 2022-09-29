@@ -4,8 +4,6 @@
   --winter-main-color: red;
   --spring-main-color: green;
   --summer-main-color: yellow;
-  --text-font: "Tenor Sans", sans-serif;
-  --headline-font: "Cinzel", serif;
 }
 
 body {
@@ -14,7 +12,7 @@ body {
 }
 .hero {
   background-color: #f8f9fa;
-  padding-bottom: 15%;
+  padding-bottom: 30%;
 }
 
 h2,
@@ -22,9 +20,9 @@ h3,
 h3 {
   text-align: center;
   line-height: 28px;
-  font-family: var(--text-font);
+  font-family: "Tenor Sans", sans-serif;
   text-transform: uppercase;
-  margin: 20px;
+  margin: 25px;
   color: black;
 }
 
@@ -39,7 +37,7 @@ h3 {
 }
 .season-fall {
   text-transform: uppercase;
-  font-family: var(--headline-font);
+  font-family: "Cinzel", serif;
   text-decoration: underline;
 }
 
@@ -48,18 +46,10 @@ h1 {
   margin: 70px 0 70px;
   font-size: 56px;
   text-transform: uppercase;
-  font-family: var(--headline-font);
+  font-family: "Cinzel", serif;
   padding-top: 80px;
 }
 
-.currentRead {
-  text-align: center;
-  margin: 50px 0 50px;
-  font-size: 46px;
-  text-transform: uppercase;
-  font-family: var(--headline-font);
-  padding: 0;
-}
 div .col-sm-6.botmIndex-titlePage {
   margin: 35 40px;
   font-size: large;
@@ -78,26 +68,26 @@ footer i {
   max-width: 100%;
   text-align: center;
   padding: 20px;
-  font-family: var(--text-font);
+  font-family: "Tenor Sans", sans-serif;
 }
 
 h5 {
-  font-family: var(--headline-font);
+  font-family: "Cinzel", serif;
 }
 
 .btn-dark {
   text-transform: uppercase;
-  font-family: var(--headline-font);
+  font-family: "Cinzel", serif;
   padding: 10px;
 }
 
 .navbar {
-  padding: 0 14px;
+  padding: 0 14px 0 14px;
 }
 .nav-item {
   padding: 10px 20px;
   text-transform: uppercase;
-  font-family: var(--text-font);
+  font-family: "Tenor Sans", sans-serif;
   position: relative;
   top: 7px;
 }
@@ -110,14 +100,14 @@ h5 {
 }
 
 .home-link {
-  font-family: var(--headline-font);
+  font-family: "Cinzel", serif;
   font-size: 24px;
 }
 .gift-link {
   background-color: var(--fall-main-color);
   font-size: 24px;
   text-align: center;
-  font-family: var(--headline-font);
+  font-family: "Cinzel", serif;
   margin: 25px;
 }
 
@@ -129,7 +119,7 @@ h5 {
   border: 30px solid var(--fall-main-color);
 }
 
-.botmHeader {
+.botmHead {
   border: 2px solid var(--fall-main-color);
   margin: 25px;
 }
@@ -150,7 +140,7 @@ div .joinLink,
   text-decoration: none;
   border-radius: 4px;
   text-transform: uppercase;
-  font-family: var(--text-font);
+  font-family: "Tenor Sans", sans-serif;
 }
 
 div .joinLink:hover,
@@ -165,11 +155,7 @@ div .joinLink:hover,
   position: relative;
   top: -14px;
 }
-.botmPicPage {
-  max-width: 25%;
-  border: 4px solid var(--fall-main-color);
-  margin: 50px;
-}
+
 @media (max-width: 574px) {
   h1 {
     line-height: 50px;
@@ -178,18 +164,12 @@ div .joinLink:hover,
   div .joinLink,
   .infoLink {
     text-align: center;
-
-    padding: 10px 20px;
   }
   .col-sm-6 img {
-    margin: 20px 0;
+    margin: 20px 0 20px 0;
   }
 
   p {
     text-align: center;
-  }
-
-  .botmPicPage {
-    max-width: 40%;
   }
 }

@@ -16,7 +16,14 @@ body {
   background-color: #f8f9fa;
   padding-bottom: 15%;
 }
-
+h1 {
+  text-align: center;
+  margin: 70px 0 70px;
+  font-size: 56px;
+  text-transform: uppercase;
+  font-family: var(--headline-font);
+  padding-top: 80px;
+}
 h2,
 h3,
 h3 {
@@ -24,12 +31,22 @@ h3 {
   line-height: 28px;
   font-family: var(--text-font);
   text-transform: uppercase;
-  margin: 20px;
+  margin: 25px;
   color: black;
 }
 
-.botmLink {
-  text-decoration: none;
+h5 {
+  font-family: var(--headline-font);
+}
+
+div .col-sm-6.botmIndex-titlePage {
+  margin: 35 40px;
+  font-size: large;
+  padding: 40px;
+}
+
+footer i {
+  margin: 20px;
 }
 
 .botmHeadline {
@@ -43,15 +60,6 @@ h3 {
   text-decoration: underline;
 }
 
-h1 {
-  text-align: center;
-  margin: 70px 0 70px;
-  font-size: 56px;
-  text-transform: uppercase;
-  font-family: var(--headline-font);
-  padding-top: 80px;
-}
-
 .currentRead {
   text-align: center;
   margin: 50px 0 50px;
@@ -59,15 +67,6 @@ h1 {
   text-transform: uppercase;
   font-family: var(--headline-font);
   padding: 0;
-}
-div .col-sm-6.botmIndex-titlePage {
-  margin: 35 40px;
-  font-size: large;
-  padding: 40px;
-}
-
-footer i {
-  margin: 20px;
 }
 
 .row {
@@ -79,16 +78,6 @@ footer i {
   text-align: center;
   padding: 20px;
   font-family: var(--text-font);
-}
-
-h5 {
-  font-family: var(--headline-font);
-}
-
-.btn-dark {
-  text-transform: uppercase;
-  font-family: var(--headline-font);
-  padding: 10px;
 }
 
 .navbar {
@@ -108,6 +97,57 @@ h5 {
   position: relative;
   top: -5px;
 }
+.botmHeader {
+  border: 2px solid var(--fall-main-color);
+  margin: 25px;
+}
+
+.logo-text {
+  font-size: medium;
+  text-decoration: underline;
+  position: relative;
+  top: -14px;
+}
+
+.col-sm-6 img {
+  max-width: 40%;
+  height: auto;
+  position: relative;
+  right: -150px;
+  border: 30px solid var(--fall-main-color);
+}
+.botmPic {
+  min-width: 25px;
+  max-width: 40%;
+  height: auto;
+}
+.botmPicPage {
+  max-width: 100%;
+  border: 10px solid var(--fall-main-color);
+  margin: 0 auto;
+}
+
+.btn-dark {
+  text-transform: uppercase;
+  font-family: var(--headline-font);
+  padding: 10px;
+}
+.tags {
+  font-family: var(--text-font);
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding: 12px;
+}
+
+.tags a {
+  text-decoration: none;
+  color: black;
+}
+
+.botmLink {
+  text-decoration: none;
+}
 
 .home-link {
   font-family: var(--headline-font);
@@ -119,24 +159,6 @@ h5 {
   text-align: center;
   font-family: var(--headline-font);
   margin: 25px;
-}
-
-.col-sm-6 img {
-  max-width: 40%;
-  height: auto;
-  position: relative;
-  right: -150px;
-  border: 30px solid var(--fall-main-color);
-}
-
-.botmHeader {
-  border: 2px solid var(--fall-main-color);
-  margin: 25px;
-}
-.botmPic {
-  min-width: 25px;
-  max-width: 40%;
-  height: auto;
 }
 
 div .joinLink,
@@ -159,17 +181,6 @@ div .joinLink:hover,
   text-decoration: underline;
 }
 
-.logo-text {
-  font-size: medium;
-  text-decoration: underline;
-  position: relative;
-  top: -14px;
-}
-.botmPicPage {
-  max-width: 25%;
-  border: 4px solid var(--fall-main-color);
-  margin: 50px;
-}
 @media (max-width: 574px) {
   h1 {
     line-height: 50px;

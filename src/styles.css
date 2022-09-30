@@ -125,6 +125,10 @@ footer i {
   margin: 20px;
 }
 
+.carousel {
+  margin: 25px 25px 25px 75px;
+}
+
 .col-sm-6 img {
   max-width: 40%;
   height: auto;

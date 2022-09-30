@@ -24,14 +24,21 @@ h1 {
   font-family: var(--headline-font);
   padding-top: 80px;
 }
+
 h2,
 h3,
-h3 {
+h4 {
   text-align: center;
+  margin: 25px;
+}
+h2,
+h3,
+h4,
+h6 {
   line-height: 28px;
   font-family: var(--text-font);
   text-transform: uppercase;
-  margin: 25px;
+
   color: black;
 }
 
@@ -189,6 +196,13 @@ div .joinLink:hover,
   color: black;
   text-decoration: underline;
 }
+#aboutUs,
+#contact,
+#faq {
+  font-size: 26px;
+
+  font-family: var(--text-font);
+}
 
 @media (max-width: 574px) {
   h1 {
@@ -211,5 +225,12 @@ div .joinLink:hover,
 
   .botmPicPage {
     max-width: 40%;
+  }
+  #aboutUs,
+  #contact,
+  #faq {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
   }
 }

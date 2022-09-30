@@ -200,6 +200,7 @@ div .joinLink:hover,
   color: black;
   text-decoration: underline;
 }
+
 #aboutUs,
 #contact,
 #faq {
@@ -208,7 +209,7 @@ div .joinLink:hover,
   font-family: var(--text-font);
 }
 
-@media (max-width: 574px) {
+@media (max-width: 576px) {
   h1 {
     line-height: 50px;
   }

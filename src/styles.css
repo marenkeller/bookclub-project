@@ -3,7 +3,7 @@
   --fall-main-color: #0c3938;
   --winter-main-color: red;
   --spring-main-color: green;
-  --summer-main-color: yellow;
+  --summer-main-color: rgb(255, 255, 128);
   --text-font: "Tenor Sans", sans-serif;
   --headline-font: "Cinzel", serif;
 }
@@ -156,6 +156,10 @@ footer i {
   margin: 0 auto;
 }
 
+.carousel {
+  border: 3px solid var(--summer-main-color);
+}
+
 .btn-dark {
   text-transform: uppercase;
   font-family: var(--headline-font);
@@ -182,7 +186,7 @@ footer i {
   font-family: var(--headline-font);
   font-size: 24px;
 }
-.gift-link {
+.giftLink {
   background-color: var(--fall-main-color);
   font-size: 24px;
   text-align: center;
@@ -206,7 +210,7 @@ div .joinLink,
 
 div .joinLink:hover,
 .infoLink:hover {
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 
@@ -226,12 +230,13 @@ div .joinLink:hover,
   div .joinLink,
   .infoLink {
     text-align: center;
-
     padding: 10px 20px;
   }
   .col-sm-6 img,
   .col-sm-3 img {
-    margin: 20px 0;
+    margin: 15px auto;
+    display: block;
+    text-align: center;
   }
 
   p {

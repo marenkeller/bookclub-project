@@ -44,6 +44,7 @@ h6 {
 
 h5 {
   font-family: var(--headline-font);
+  text-align: center;
 }
 
 div .col-sm-6.botmIndex-titlePage {
@@ -82,7 +83,6 @@ footer i {
 
 .col-sm-4 {
   max-width: 100%;
-  text-align: center;
   padding: 20px;
   font-family: var(--text-font);
 }

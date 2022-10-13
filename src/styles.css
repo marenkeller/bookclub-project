@@ -14,8 +14,12 @@ body {
 }
 .hero {
   background-color: #f8f9fa;
-  padding-bottom: 15%;
+  padding-bottom: 25%;
 }
+div#botm {
+  margin-top: 50px;
+}
+
 h1 {
   text-align: center;
   margin: 70px 0 70px;
@@ -46,18 +50,21 @@ h5 {
   text-align: center;
 }
 
-div .col-sm-6.botmIndex-titlePage {
-  margin: 35 40px;
+div .col-lg-6.botmIndex-titlePage {
   font-size: large;
-  padding: 40px;
+  padding: 10px 40px;
 }
 
 footer i {
   margin: 20px;
 }
 
+footer i:hover {
+  cursor: pointer;
+}
+
 .botmHeadline {
-  background-color: #3a4e5e;
+  background-color: var(--fall-main-color);
   color: #f8f9fa;
   padding: 30px;
 }
@@ -77,7 +84,7 @@ footer i {
 }
 
 .row {
-  margin: 30px 0 100px 0;
+  margin: 30px 0 50px 0;
 }
 
 .col-sm-4 {
@@ -128,7 +135,7 @@ footer i {
   margin: 35px 0 35px 0;
 }
 
-.col-sm-6 img {
+.col-lg-6 img {
   max-width: 40%;
   height: auto;
   position: relative;
@@ -201,31 +208,44 @@ footer i {
   margin: 25px;
 }
 
+div#botm.row {
+  margin-bottom: 0;
+}
+
 div .joinLink,
 .infoLink,
 .readMore {
-  background-color: #486780;
-  border: 1px solid #486780;
+  background-color: var(--fall-main-color);
+  border: 1px solid var(--fall-main-color);
   padding: 12px 30px;
-  margin: 30px;
+  margin: 30px 30px 0 30px;
   color: #f8f9fa;
   text-decoration: none;
   border-radius: 4px;
   text-transform: uppercase;
   font-family: var(--text-font);
+  transition: 150ms all ease-in-out;
 }
 
 div .joinLink:hover,
-.infoLink:hovers {
+.readMore:hover,
+.infoLink:hover {
   color: white;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+a.nav-link:hover {
+  color: var(--fall-main-color);
+  text-decoration: underline;
+  transition: all 120ms ease-in-out;
+  cursor: pointer;
 }
 
 #aboutUs,
 #contact,
 #faq {
   font-size: 26px;
-
   font-family: var(--text-font);
 }
 
@@ -239,11 +259,15 @@ div .joinLink:hover,
     text-align: center;
     padding: 10px 20px;
   }
-  img .col-sm-6,
+  img .col-lg-6,
   img .col-sm-3 {
     margin: 0 auto;
     display: block;
     text-align: center;
+  }
+
+  .extraRecs {
+    padding: 12px;
   }
 
   p {
@@ -262,6 +286,11 @@ div .joinLink:hover,
     text-decoration: underline;
   }
   .botmHeadline {
+    font-size: 18px;
+  }
+
+  .home-link {
+    font-family: var(--text-font);
     font-size: 18px;
   }
 }

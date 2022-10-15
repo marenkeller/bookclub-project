@@ -43,11 +43,13 @@ h6 {
   font-family: var(--text-font);
   text-transform: uppercase;
   color: black;
+  font-weight: 300;
 }
 
 h5 {
   font-family: var(--headline-font);
   text-align: center;
+  margin: 15px;
 }
 
 div .col-lg-6.botmIndex-titlePage {
@@ -68,6 +70,8 @@ footer i:hover {
   color: #f8f9fa;
   padding: 48px;
   font-size: 36px;
+  border: 5px solid #0b2d2d;
+  font-weight: 300;
 }
 .season-fall {
   text-transform: uppercase;
@@ -111,6 +115,7 @@ footer i:hover {
   position: relative;
   top: -5px;
 }
+
 .botmHeader {
   border: 2px solid var(--fall-main-color);
   margin: 25px;
@@ -128,9 +133,19 @@ footer i:hover {
   margin: 0 auto;
   display: block;
   text-align: center;
-  border: 2px solid #486780;
+  border: 2px solid #0b2d2d;
   padding: 20px;
+  margin: 40px 20px;
+}
+.seasonBtnArchive {
   margin: 20px;
+  font-family: var(--headline-font);
+  color: black;
+  font-size: 24px;
+}
+
+.seasonBtnArchive:hover {
+  color: black;
 }
 
 .carousel {

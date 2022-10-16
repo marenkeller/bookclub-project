@@ -152,10 +152,6 @@ footer i:hover {
   transition: 200ms all ease-in-out;
 }
 
-.carousel {
-  margin: 35px 0 35px 0;
-}
-
 .botmPic {
   min-width: 25px;
   max-width: 40%;

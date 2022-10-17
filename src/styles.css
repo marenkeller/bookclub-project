@@ -24,10 +24,18 @@ div#botm {
 h1 {
   text-align: center;
   margin: 70px 0 70px;
-  font-size: 56px;
+  font-size: 78px;
   text-transform: uppercase;
   font-family: var(--headline-font);
   padding-top: 80px;
+}
+
+.logo-text {
+  font-size: 20px;
+  text-decoration: underline;
+  position: relative;
+  top: -22px;
+  line-height: 5rem;
 }
 
 h2,
@@ -64,6 +72,11 @@ footer i {
 
 footer i:hover {
   cursor: pointer;
+}
+
+.indexPageText {
+  font-family: var(--text-font);
+  font-weight: 300;
 }
 
 .botmHeadline {
@@ -123,14 +136,6 @@ footer i:hover {
   background-color: #f8f9fa;
 }
 
-.logo-text {
-  font-size: medium;
-  text-decoration: underline;
-  position: relative;
-  top: -14px;
-  line-height: 5rem;
-}
-
 .archive {
   margin: 0 auto;
   display: block;
@@ -141,15 +146,25 @@ footer i:hover {
   background-color: #f8f9fa;
 }
 .seasonBtnArchive {
-  margin: 20px;
   font-family: var(--headline-font);
   color: black;
   font-size: 24px;
+  padding-bottom: 20px;
 }
 
 .seasonBtnArchive:hover {
   color: #00008b;
   transition: 200ms all ease-in-out;
+}
+
+.seasonArchive {
+  margin-bottom: 40px;
+}
+
+.logoTextLastMonth {
+  font-size: 20px;
+  text-decoration: underline;
+  line-height: 5rem;
 }
 
 .botmPic {
@@ -196,6 +211,10 @@ footer i:hover {
 }
 .card {
   background-color: #f8f9fa;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
 }
 
 .archiveInfoBox {
@@ -290,6 +309,19 @@ a.nav-link:hover {
   cursor: pointer;
 }
 
+a.btn.btn-summer:hover {
+  background-color: rgb(244, 244, 104);
+  border: rgb(244, 244, 104);
+}
+a.btn.btn-spring:hover {
+  background-color: rgb(17, 106, 17);
+  border: rgb(17, 106, 17);
+}
+a.btn.btn-winter:hover {
+  background-color: #991919;
+  border: #991919;
+}
+
 #aboutUs,
 #contact,
 #faq {
@@ -299,7 +331,24 @@ a.nav-link:hover {
 
 @media (max-width: 576px) {
   h1 {
-    line-height: 50px;
+    padding-top: 10px;
+    font-size: 33px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    margin: 5px;
+  }
+
+  .logo-text {
+    position: relative;
+    top: -43px;
+    left: 166px;
+    font-size: 15px;
+  }
+
+  .logoTextLastMonth {
+    font-size: 15px;
   }
 
   div .joinLink,
@@ -326,6 +375,10 @@ a.nav-link:hover {
     max-width: 40%;
   }
 
+  .about-page {
+    margin: 0 auto;
+  }
+
   #aboutUs,
   #contact,
   #faq {
@@ -343,5 +396,25 @@ a.nav-link:hover {
   }
   .about-page {
     max-width: 100%;
+  }
+  .fixed-top {
+    position: relative;
+    top: 6px;
+  }
+  .col-lg-4 {
+    padding: 0;
+  }
+
+  .seasonArchive {
+    margin-bottom: 2px;
+  }
+
+  .indexPageText p {
+    text-align: left;
+  }
+
+  .indexPageText h5 {
+    position: relative;
+    top: 35px;
   }
 }
